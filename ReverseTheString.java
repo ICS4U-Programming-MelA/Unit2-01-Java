@@ -12,7 +12,7 @@ import java.util.Scanner;
 class ReverseTheString {
   public static String recurseString(String normalString) {
 
-    // If the string is empty, return it as normal.
+    // If the string is empty, return it.
     if (normalString.isEmpty()) {
       return normalString;
 
